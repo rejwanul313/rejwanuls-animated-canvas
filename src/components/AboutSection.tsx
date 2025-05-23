@@ -1,6 +1,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { CheckCircle } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 export function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -40,9 +41,14 @@ export function AboutSection() {
           className="relative opacity-0 order-2 md:order-1"
         >
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-portfolio-blue to-portfolio-lightBlue mx-auto overflow-hidden shadow-xl border-4 border-white">
-            <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center text-gray-500 font-medium">
-              <p className="text-center">Profile Image</p>
-            </div>
+            <Avatar className="w-full h-full">
+              <AvatarImage 
+                src="https://media.licdn.com/dms/image/D5603AQHstZD9XywtZQ/profile-displayphoto-shrink_800_800/0/1686132931033?e=1719792000&v=beta&t=L1pfIJVekQYUOtudwP5nk2NdY7Rxafupa5pJt5mUPGo" 
+                alt="Rejwanul Islam" 
+                className="w-full h-full object-cover"
+              />
+              <AvatarFallback className="text-2xl">RI</AvatarFallback>
+            </Avatar>
           </div>
           
           <div className="absolute -bottom-4 -right-4 md:bottom-4 md:right-20 bg-white rounded-lg shadow-lg p-4 animate-float">

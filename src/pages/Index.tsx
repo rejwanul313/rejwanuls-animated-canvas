@@ -14,8 +14,19 @@ import AnimatedScrollObserver from '@/components/AnimatedScrollObserver';
 
 const Index = () => {
   useEffect(() => {
-    // Update page title
-    document.title = "Rejwanul Islam - Software Developer Portfolio";
+    // Update page title and metadata
+    document.title = "Rejwanul Islam - Frontend Developer Portfolio";
+    
+    // Add meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Portfolio website of Rejwanul Islam, Frontend Developer with expertise in React.js, Node.js, and modern web technologies.");
+    } else {
+      const meta = document.createElement('meta');
+      meta.name = "description";
+      meta.content = "Portfolio website of Rejwanul Islam, Frontend Developer with expertise in React.js, Node.js, and modern web technologies.";
+      document.head.appendChild(meta);
+    }
   }, []);
   
   return (

@@ -41,21 +41,27 @@ export function ResumeSection() {
               <h3 className="text-xl font-bold text-portfolio-blue mb-4">Education</h3>
               
               <div className="mb-6">
-                <div className="font-medium text-lg">Bachelor of Science in Computer Science</div>
+                <div className="font-medium text-lg">B.Sc. in Computer Science and Engineering</div>
                 <div className="text-gray-700">Daffodil International University</div>
                 <div className="text-gray-600 text-sm mt-1">2013 - 2017</div>
+                <div className="text-gray-700 mt-2">GPA: 3.75/4.00</div>
               </div>
               
               <h3 className="text-xl font-bold text-portfolio-blue mb-4 mt-8">Certifications</h3>
               
               <div className="mb-4">
-                <div className="font-medium">React Developer Certification</div>
-                <div className="text-gray-600 text-sm">2020</div>
+                <div className="font-medium">React Advanced Concepts</div>
+                <div className="text-gray-600 text-sm">Udemy - 2022</div>
               </div>
               
               <div className="mb-4">
                 <div className="font-medium">Full Stack JavaScript Development</div>
-                <div className="text-gray-600 text-sm">2019</div>
+                <div className="text-gray-600 text-sm">Coursera - 2020</div>
+              </div>
+              
+              <div className="mb-4">
+                <div className="font-medium">Advanced Web Technologies</div>
+                <div className="text-gray-600 text-sm">EdX - 2019</div>
               </div>
             </div>
             
@@ -66,10 +72,10 @@ export function ResumeSection() {
                 <div>
                   <div className="flex justify-between mb-1">
                     <span className="font-medium text-gray-800">English</span>
-                    <span className="text-portfolio-blue font-medium">Fluent</span>
+                    <span className="text-portfolio-blue font-medium">Professional</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
-                    <div className="h-2.5 rounded-full bg-portfolio-blue" style={{ width: '90%' }}></div>
+                    <div className="h-2.5 rounded-full bg-portfolio-blue" style={{ width: '85%' }}></div>
                   </div>
                 </div>
                 
@@ -86,8 +92,9 @@ export function ResumeSection() {
               
               <div className="mt-8">
                 <a 
-                  href="#" 
+                  href="/Rejwanul_Islam_Resume.pdf" 
                   className="flex items-center justify-center px-6 py-3 bg-portfolio-blue text-white rounded-lg hover:bg-portfolio-lightBlue transition-colors shine-effect"
+                  download
                 >
                   <FileDown className="mr-2" size={18} />
                   <span>Download Full Resume</span>
