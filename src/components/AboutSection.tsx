@@ -43,7 +43,7 @@ export function AboutSection() {
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-portfolio-blue to-portfolio-lightBlue mx-auto overflow-hidden shadow-xl border-4 border-white">
             <Avatar className="w-full h-full">
               <AvatarImage 
-                src="https://media.licdn.com/dms/image/D5603AQHstZD9XywtZQ/profile-displayphoto-shrink_800_800/0/1686132931033?e=1719792000&v=beta&t=L1pfIJVekQYUOtudwP5nk2NdY7Rxafupa5pJt5mUPGo" 
+                src="/lovable-uploads/f1ec3e43-6f2c-40f9-aed1-b643b9e80e53.png" 
                 alt="Rejwanul Islam" 
                 className="w-full h-full object-cover"
               />
