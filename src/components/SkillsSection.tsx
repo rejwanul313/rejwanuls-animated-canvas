@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 
 interface Skill {
@@ -8,16 +7,20 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'React', percentage: 92, category: 'frontend' },
-  { name: 'JavaScript', percentage: 90, category: 'frontend' },
+  { name: 'JavaScript', percentage: 95, category: 'frontend' },
+  { name: 'React', percentage: 90, category: 'frontend' },
+  { name: 'React Native', percentage: 85, category: 'frontend' },
+  { name: 'HTML/CSS', percentage: 90, category: 'frontend' },
   { name: 'TypeScript', percentage: 85, category: 'frontend' },
-  { name: 'HTML/CSS', percentage: 95, category: 'frontend' },
+  { name: 'Redux', percentage: 85, category: 'frontend' },
   { name: 'Node.js', percentage: 80, category: 'backend' },
-  { name: 'Python', percentage: 75, category: 'backend' },
-  { name: 'SQL', percentage: 78, category: 'backend' },
-  { name: 'MongoDB', percentage: 80, category: 'backend' },
-  { name: 'UI/UX Design', percentage: 88, category: 'other' },
+  { name: 'Express.js', percentage: 80, category: 'backend' },
+  { name: 'MongoDB', percentage: 75, category: 'backend' },
+  { name: 'SQL', percentage: 70, category: 'backend' },
+  { name: 'Firebase', percentage: 75, category: 'backend' },
   { name: 'Git/GitHub', percentage: 85, category: 'other' },
+  { name: 'Agile/Scrum', percentage: 80, category: 'other' },
+  { name: 'REST APIs', percentage: 85, category: 'other' },
 ];
 
 export function SkillsSection() {

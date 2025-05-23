@@ -46,12 +46,12 @@ export function AboutSection() {
           </div>
           
           <div className="absolute -bottom-4 -right-4 md:bottom-4 md:right-20 bg-white rounded-lg shadow-lg p-4 animate-float">
-            <span className="block text-portfolio-blue font-bold text-xl">4+</span>
+            <span className="block text-portfolio-blue font-bold text-xl">6+</span>
             <span className="text-sm text-gray-600">Years Experience</span>
           </div>
           
           <div className="absolute -top-4 -left-4 md:top-4 md:left-20 bg-white rounded-lg shadow-lg p-4 animate-float" style={{ animationDelay: '2s' }}>
-            <span className="block text-portfolio-accent font-bold text-xl">20+</span>
+            <span className="block text-portfolio-accent font-bold text-xl">30+</span>
             <span className="text-sm text-gray-600">Projects Completed</span>
           </div>
         </div>
@@ -65,29 +65,29 @@ export function AboutSection() {
           </h2>
           
           <p className="text-gray-700 mb-6">
-            I am Rejwanul Islam, a passionate developer with expertise in creating digital solutions that solve real-world problems. With a background in computer science and years of practical experience, I blend technical knowledge with creative problem-solving.
+            I am Rejwanul Islam, a passionate Software Developer with expertise in creating digital solutions that solve real-world problems. With over 6 years of experience in web development, I blend technical knowledge with creative problem-solving.
           </p>
           
           <p className="text-gray-700 mb-8">
-            My goal is to build applications that are not only functional but also provide exceptional user experiences. I continuously stay updated with the latest technologies and best practices in the industry.
+            My goal is to build applications that are not only functional but also provide exceptional user experiences. I specialize in web and mobile app development, with a focus on efficient, scalable, and maintainable code. I continuously stay updated with the latest technologies and best practices in the industry.
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="flex items-center space-x-2">
               <CheckCircle size={20} className="text-portfolio-accent" />
-              <span>Web Development</span>
+              <span>Full Stack Development</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle size={20} className="text-portfolio-accent" />
-              <span>Mobile Development</span>
+              <span>React & React Native</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle size={20} className="text-portfolio-accent" />
-              <span>UI/UX Design</span>
+              <span>Node.js & Express</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle size={20} className="text-portfolio-accent" />
-              <span>Problem Solving</span>
+              <span>MongoDB & SQL</span>
             </div>
           </div>
         </div>
