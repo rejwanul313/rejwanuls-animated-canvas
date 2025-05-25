@@ -7,7 +7,6 @@
 rejwanuls-animated-canvas-79hm24gig-rejwanuls-projects.vercel.app
 ## Domains
 rejwanuls-animated-canvas.vercel.app
-+2
 ## How can I edit this code?
 
 There are several ways of editing your application.
