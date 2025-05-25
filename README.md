@@ -3,7 +3,11 @@
 ## Project info
 
 **URL**: https://lovable.dev/projects/dc3e7e73-2732-488b-bdcb-56fd9a9c437e
-
+## Deployment
+rejwanuls-animated-canvas-79hm24gig-rejwanuls-projects.vercel.app
+## Domains
+rejwanuls-animated-canvas.vercel.app
++2
 ## How can I edit this code?
 
 There are several ways of editing your application.
